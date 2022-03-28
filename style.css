@@ -144,7 +144,13 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
+
+  form div{
+    margin: 10px;
+  }
+  
   form select,
 form input {
   margin-bottom: 0;
